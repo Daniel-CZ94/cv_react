@@ -1,0 +1,139 @@
+export const data_cv = {
+    data: {
+            datosPersonales:{
+            nombre: "Angel Daniel",
+            apellidoPaterno: "Carreño",
+            apellidoMaterno: "Zamacona",
+            perfil: "Programador .Net Ssr.",
+            foto: "",
+            descripcionPersonal:"Soy una persona honesta que le gustan los retos",
+            lugarResidencia: "Nezahualcoyotl",
+            estadoResidencia: "Edo. de Mexico"
+        },
+        experiencia:[
+            {
+                idexperiencia: 1,
+                lugarTrabajo: "SGS",
+                puesto: "Desarrollador .Net Jr.",
+                inicio: "Abril-2016",
+                fin: "Abril-2021",
+                empleoActual: false,
+                actividadesLaborales: [
+                    {idActividad: 1, descripcion: "Desarrollo de Web Services SOAP utilizando tecnologia WCF"},
+                    {idActividad: 2, descripcion: "Mantenimiento y Creacion de modulos de los proyectos ya existentes utilizando .Net con Web Forms"},
+                    {idActividad: 3, descripcion: "Realizacion de cargas de datos masivas utilizando procesos ETL con SSIS"}
+                ]
+            },
+            {
+                idexperiencia: 2,
+                lugarTrabajo: "Ironbit Apps",
+                puesto: "Desarrollador .Net Jr.",
+                inicio: "Abril-2021",
+                fin: "Marzo-2022",
+                empleoActual: false,
+                actividadesLaborales: [
+                    {idActividad: 4, descripcion: "Principal encargado del laboratorio de computacion escolar"},
+                    {idActividad: 5, descripcion: "Creacion del proyecto para expedicion de la carta porte utilizando .Net Core y Blazor"},
+                    {idActividad: 6, descripcion: "Creacion y mantenimiento de procesos a nivel base de datos utilizando Transact SQL con SQL Server"},
+                    {idActividad: 7, descripcion: "Creacion y mantenimiento de procesos a nivel base de datos utilizando Transact SQL con Sybase"}
+                ]
+            },
+            {
+                idexperiencia: 3,
+                lugarTrabajo: "P3 Group",
+                puesto: "Desarrollador .Net Jr.",
+                inicio: "Marzo-2022",
+                fin: "",
+                empleoActual: true,
+                actividadesLaborales:[
+                    {idActividad: 8, descripcion: "Mantenimiento de los diferentes proyectos utilizando .Net Framework y .Net Core"},
+                    {idActividad: 9, descripcion: "Mantenimiento basico de las bases de datos Sql Server utilizadas a nivel programador"},
+                    {idActividad: 10, descripcion: "Creacion y mantenimiento de procesos a nivel base de datos utilizando Transact SQL con SQL Server"},
+                    {idActividad: 11, descripcion: "Desarrollo y mantenimiento del proyecto SIGDC diseñado para la generacion y expedicion de documentos"}
+                ]
+            }
+        ],
+        formacionAcademica:[
+            {
+                idFormacion: 1,
+                plantel: "Universidad Tecnologico de Nezahualcoyotl",
+                nivelAcademico: "Licenciatura",
+                titulo: "T.S.U en T.I.C.S Area Sistemas Informaticos",
+                inicio: "2021-09-01",
+                fin: "2015-02-15",
+                estatus: "Titulado"
+            }
+        ],
+        idiomas:[
+            {
+                idManejoIdioma: 1,
+                idioma: "Ingles",
+                lectura: 70,
+                escritura: 40,
+                pronunciacion: 30
+            },
+            {
+                idManejoIdioma: 2,
+                idioma: "Aleman",
+                lectura: 40,
+                escritura: 20,
+                pronunciacion: 20
+            }
+        ],
+        conocimientos:[
+            {
+                idConocimiento: 1,
+                descripcion: "Programación en T-SQL",
+                nivel: "Alto"
+            },
+            {
+                idConocimiento: 2,
+                descripcion: "Manejo de ASP.Net (MVC)",
+                nivel: "Alto"
+            }
+        ],
+        habilidades:[
+            { idHabilidad:1, descripcion: "Facilidad de trabajar tanto en equipo como de forma individual."},
+            { idHabilidad:2, descripcion: "Gran habilidad para resolución de problemas."},
+            { idHabilidad:3, descripcion: "Rápido aprendizaje de cuestiones técnicas."}
+        ],
+        capacitaciones:[
+            { idCapacitacion:1, descripcion: "Curso de Introducción a la prevención de lavado de dinero – Fundación Slim"},
+            { idCapacitacion:2, descripcion: "Curso de Data Analytics con PowerBI - CoderHouse"},
+            { idCapacitacion:3, descripcion: "Curso de Programación de Apps Móviles de Google-UCM"}
+        ],
+        referencias: [
+            {
+                idReferencia: 1,
+                nombre: "Alejandra Abigail Herrera Jimenez",
+                telefono: "5614776168",
+                tipo: "Laboral"
+            },
+            {
+                idReferencia: 2,
+                nombre: "Samuel Zamacona Chavez",
+                telefono: "5511996936",
+                tipo: "Personal"
+            }
+        ],
+        correos:[
+            "angeldanielcz@hotmail.com","danielzamacona94@outlook.com"
+        ],
+        telefonos:[
+            "5568181901","5557309338"
+        ]
+
+    }
+}
+export const getDataCurriculum = () => {
+    return new Promise((resolve,reject) => {
+        let error = false
+        setTimeout(()=>{
+            if(error){
+                reject("No hay datos")
+            }else{
+                resolve(data_cv)
+            }
+        },1800)
+    })
+}

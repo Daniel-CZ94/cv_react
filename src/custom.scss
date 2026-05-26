@@ -1,0 +1,10 @@
+$primary: rgba(0, 153, 255, 0.678);
+
+$theme-colors: (
+    "primary": $primary
+    
+);
+
+//@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import 'bootstrap/scss/bootstrap';
