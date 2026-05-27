@@ -11,7 +11,7 @@ return(
                 <h5>{data.datosPersonales.perfil}</h5>
             </div>
             <div style={{textAlign: "center"}}>
-                <Image src="imgcv.jpg" roundedCircle />
+                <Image src={data.datosPersonales.foto} roundedCircle />
             </div>
             <div style={{textAlign: "center"}}>
                 <p className="text-center">
