@@ -1,4 +1,4 @@
-export const data_cv = {
+/*export const data_cv = {
     data: {
             datosPersonales:{
             nombre: "Angel Daniel",
@@ -124,7 +124,8 @@ export const data_cv = {
         ]
 
     }
-}
+}*/
+import data_cv from './info.json'
 export const getDataCurriculum = () => {
     return new Promise((resolve,reject) => {
         let error = false

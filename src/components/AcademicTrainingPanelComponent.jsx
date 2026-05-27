@@ -2,6 +2,7 @@ import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Alert } from "react-bootstrap";
 const AcademicTrainingPanelComponent = ({data}) =>{
+    const monthNames = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]                
     return(
         <>
         <Alert variant="primary">
@@ -14,7 +15,7 @@ const AcademicTrainingPanelComponent = ({data}) =>{
                     data.map((item)=>(
                         <div key={item.idFormacion}>
                             <h5><strong>{item.titulo}</strong></h5>
-                            <p><em>{item.plantel} ({item.inicio}-{item.fin})</em></p>
+                            <p><em>{item.plantel} ({monthNames[new Date(item.inicio).getMonth()]}-{new Date(item.inicio).getFullYear()} - {monthNames[new Date(item.fin).getMonth()]}-{new Date(item.fin).getFullYear()})</em></p>
                         </div>
                     ))
                 }
