@@ -4,52 +4,98 @@
             "nombre": "Angel Daniel",
             "apellidoPaterno": "Carreño",
             "apellidoMaterno": "Zamacona",
-            "perfil": "Programador .Net Ssr.",
+            "perfil": "Programador SQL y .Net",
             "foto": "imgcv.png",
-            "descripcionPersonal":"Soy una persona honesta que le gustan los retos",
+            "descripcionPersonal":"Soy una persona honesta que le gustan los retos y que busca superarse día a día de manera personal y profesional. No temo a enfrentar lo desconocido, ya que siempre se aprende algo nuevo.",
             "lugarResidencia": "Nezahualcoyotl",
-            "estadoResidencia": "Edo. de Mexico"
+            "estadoResidencia": "Edo. de Mexico",
+            "edad": 31,
+            "dispBackOffice": true,
+            "dispViajar": true,
+            "dispMudarse": false
         },
         "experiencia":[
             {
                 "idexperiencia": 1,
-                "lugarTrabajo": "SGS",
-                "puesto": "Desarrollador .Net Jr.",
-                "inicio": "2016-04-01",
-                "fin": "2021-04-01",
+                "lugarTrabajo": "Servicio de Administración Tributaria",
+                "puesto": "Desarrollador Jr.",
+                "inicio": "2014-09-01",
+                "fin": "2015-01-01",
                 "empleoActual": false,
+                "descripcion": "Estadía profesional en el depto. De Administración Local de Comunicaciones y Tecnologías de la Información. Llevando a cabo las siguientes actividades:",
                 "actividadesLaborales": [
-                    {"idActividad": 1, "descripcion": "Desarrollo de Web Services SOAP utilizando tecnologia WCF"},
-                    {"idActividad": 2, "descripcion": "Mantenimiento y Creacion de modulos de los proyectos ya existentes utilizando .Net con Web Forms"},
-                    {"idActividad": 3, "descripcion": "Realizacion de cargas de datos masivas utilizando procesos ETL con SSIS"}
+                    {"idActividad": 1, "descripcion": "Desarrollo del proyecto SRADA (Sistema de Registro y Almacenamiento Digital de Archivos), desarrollado en el lenguaje de programación C# con conexión a base de datos local en MySQL, para el registro y almacenamiento de documentos utilizados en el inmueble."},
+                    {"idActividad": 2, "descripcion": "Soporte y asesoría a usuarios del inmueble."},
+                    {"idActividad": 3, "descripcion": "Aplicación de soporte técnico a las instalaciones y usuarios del inmueble."}
                 ]
             },
             {
                 "idexperiencia": 2,
-                "lugarTrabajo": "Ironbit Apps",
-                "puesto": "Desarrollador .Net Jr.",
-                "inicio": "2021-04-01",
-                "fin": "2022-03-01",
+                "lugarTrabajo": "Soluciones Globales en Sistemas y Cartera",
+                "puesto": "Desarrollador .Net",
+                "inicio": "2016-04-01",
+                "fin": "2021-04-01",
                 "empleoActual": false,
+                "descripcion": "Desarrollo y mantenimiento de aplicaciones orientadas a empresas financieras y la prevención de lavado de dinero proveídas a terceros haciendo uso de las siguientes tecnologías:",
                 "actividadesLaborales": [
-                    {"idActividad": 4, "descripcion": "Principal encargado del laboratorio de computacion escolar"},
-                    {"idActividad": 5, "descripcion": "Creacion del proyecto para expedicion de la carta porte utilizando .Net Core y Blazor"},
-                    {"idActividad": 6, "descripcion": "Creacion y mantenimiento de procesos a nivel base de datos utilizando Transact SQL con SQL Server"},
-                    {"idActividad": 7, "descripcion": "Creacion y mantenimiento de procesos a nivel base de datos utilizando Transact SQL con Sybase"}
+                    {"idActividad": 4, "descripcion": "ASP.Net Web Forms (C#) como tecnología backend."},
+                    {"idActividad": 5, "descripcion": "HTML5, CSS y Javascript como tecnología frontend."},
+                    {"idActividad": 6, "descripcion": "SQL Server (versión 2012 en adelante) como gestor de bases de datos. Usado a nivel programación para la lógica de negocio (consultas avanzadas, procedimientos almacenados, funciones, triggers, vistas, cursores, tablas temporales y variables de tabla, pivots, etc."},
+                    {"idActividad": 7, "descripcion": "Telerik Reporting para diseño de documentos."},
+                    {"idActividad": 8, "descripcion": "WCF para desarrollo y consumo de servicios web SOAP."},
+                    {"idActividad": 9, "descripcion": "SSIS para migración de información entre bases de datos y otras plataformas de datos."},
+                    {"idActividad": 10, "descripcion": "Team Foundation Server como repositorio y versionador de código."},
+                    {"idActividad": 11, "descripcion": "Uso de SQL Server a nivel administración para gestionar roles, permisos y usuarios de las bases de datos."}
                 ]
             },
             {
                 "idexperiencia": 3,
-                "lugarTrabajo": "P3 Group",
-                "puesto": "Desarrollador .Net Jr.",
+                "lugarTrabajo": "Ironbit Apps",
+                "puesto": "Desarrollador .Net",
+                "inicio": "2021-04-01",
+                "fin": "2022-03-01",
+                "empleoActual": false,
+                "descripcion": "Soporte y mantenimiento a diferentes aplicaciones y plataformas desarrolladas en el inmueble de CONDUMEX, haciendo uso de las siguientes tecnologías:",
+                "actividadesLaborales":[
+                    {"idActividad": 12, "descripcion": "ASP.Net MVC y Microservicios con Net core (C#, VB) con patrón CQRS como tecnología backend."},
+                    {"idActividad": 13, "descripcion": "Blazor, Jquery, Javascript (según se requiriera) como tecnología frontend."},
+                    {"idActividad": 14, "descripcion": "SQL Server 2016 en adelante como gestor de base datos y manejo de lógica de negocio (según fuera requerido)."},
+                    {"idActividad": 15, "descripcion": "Windows Forms (C#, VB.Net y VB6) para desarrollo y mantenimiento de aplicaciones de escritorio."},
+                    {"idActividad": 16, "descripcion": "Azure Devops Repos y Git como herramientas de repositorio de código y versionador."},
+                    {"idActividad": 17, "descripcion": "Migración de portales realizados en tecnología Silverlight a tecnología Blazor."}
+                ]
+            },
+            {
+                "idexperiencia": 4,
+                "lugarTrabajo": "P3 Group (Scotiabank)",
+                "puesto": "Desarrollador .Net",
                 "inicio": "2022-04-01",
+                "fin": "2026-03-01",
+                "empleoActual": false,
+                "descripcion": "Mantenimiento al sistema de expedición de constancias fiscales empleado en las sucursales de la institución bancaria Scotiabank haciendo uso de las siguientes tecnologías:",
+                "actividadesLaborales":[
+                    {"idActividad": 18, "descripcion": "ASP.Net MVC (C#) como tecnología backend."},
+                    {"idActividad": 19, "descripcion": "Jquery, Ajax y Bootstrap como tecnología frontend."},
+                    {"idActividad": 20, "descripcion": "WCF para la creación y consumo Web Services SOAP."},
+                    {"idActividad": 21, "descripcion": "Bash Shell y Java para ejecución de procesos batch sobre Linux."},
+                    {"idActividad": 22, "descripcion": "Sybase como gestor de base de datos."},
+                    {"idActividad": 23, "descripcion": "IIS a nivel administrador como servidor de la aplicación."},
+                    {"idActividad": 24, "descripcion": "SonarQube para control de buenas practicas y pruebas unitarias."},
+                    {"idActividad": 25, "descripcion": "Bitbucket como repositorio y versionador de código."},
+                    {"idActividad": 26, "descripcion": "Jira para seguimiento de proyectos."}
+                ]
+            },
+            {
+                "idexperiencia": 5,
+                "lugarTrabajo": "P3 Group (Glory)",
+                "puesto": "Desarrollador .Net",
+                "inicio": "2026-03-01",
                 "fin": "",
                 "empleoActual": true,
+                "descripcion": "Mantenimiento al sistema para maquinas (tipo cajero automático) para manejo de efectivo en gran cantidad, transacciones, entre otras operaciones:",
                 "actividadesLaborales":[
-                    {"idActividad": 8, "descripcion": "Mantenimiento de los diferentes proyectos utilizando .Net Framework y .Net Core"},
-                    {"idActividad": 9, "descripcion": "Mantenimiento basico de las bases de datos Sql Server utilizadas a nivel programador"},
-                    {"idActividad": 10, "descripcion": "Creacion y mantenimiento de procesos a nivel base de datos utilizando Transact SQL con SQL Server"},
-                    {"idActividad": 11, "descripcion": "Desarrollo y mantenimiento del proyecto SIGDC diseñado para la generacion y expedicion de documentos"}
+                    {"idActividad": 27, "descripcion": "Windows Presentation Foundation como tecnología principal para la interfaz."},
+                    {"idActividad": 28, "descripcion": "SQL Server como gestor de base de datos."}
                 ]
             }
         ],
@@ -83,24 +129,159 @@
         "conocimientos":[
             {
                 "idConocimiento": 1,
-                "descripcion": "Programación en T-SQL",
-                "nivel": "Alto"
+                "descripcion": "C#",
+                "nivel": "Avanzado"
             },
             {
                 "idConocimiento": 2,
-                "descripcion": "Manejo de ASP.Net (MVC)",
-                "nivel": "Alto"
+                "descripcion": "Entity Framework",
+                "nivel": "Intermedio"
+            },
+            {
+                "idConocimiento": 3,
+                "descripcion": "Net Core",
+                "nivel": "Intermedio"
+            },
+            {
+                "idConocimiento": 4,
+                "descripcion": "ASP.Net (Web Forms y MVC)",
+                "nivel": "Avanzado"
+            },
+            {
+                "idConocimiento": 5,
+                "descripcion": "ASP.Net (Blazor)",
+                "nivel": "Intermedio"
+            },
+            {
+                "idConocimiento": 6,
+                "descripcion": "Microservicios con .Net",
+                "nivel": "Intermedio"
+            },
+            {
+                "idConocimiento": 7,
+                "descripcion": "JavaScript/Jquery/AJAX",
+                "nivel": "Intermedio"
+            },
+            {
+                "idConocimiento": 8,
+                "descripcion": "ReacJs",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 9,
+                "descripcion": "Windows Forms",
+                "nivel": "Avanzado"
+            },
+            {
+                "idConocimiento": 10,
+                "descripcion": "T-SQL (vistas, funciones, procedimientos almacenados, pivotes, consultas avanzadas, cursores",
+                "nivel": "Avanzado"
+            },
+            {
+                "idConocimiento": 11,
+                "descripcion": "MySQL",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 12,
+                "descripcion": "Oracle PL-SQL",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 13,
+                "descripcion": "Java",
+                "nivel": "Intermedio"
+            },
+            {
+                "idConocimiento": 14,
+                "descripcion": "PHP",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 15,
+                "descripcion": "VB6 y VB.Net",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 16,
+                "descripcion": "Administración de roles y usuarios en SQL Server",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 17,
+                "descripcion": "Diseño de base de datos OLTP",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 18,
+                "descripcion": "SQL Server Integration Services",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 19,
+                "descripcion": "Telerik Reporting",
+                "nivel": "Intermedio"
+            },
+            {
+                "idConocimiento": 20,
+                "descripcion": "Crystal Reports",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 21,
+                "descripcion": "Excel (Tablas dinámicas, VB, Macros)",
+                "nivel": "Intermedio"
+            },
+            {
+                "idConocimiento": 22,
+                "descripcion": "PowerBI",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 23,
+                "descripcion": "R para análisis de datos",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 24,
+                "descripcion": "UML",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 25,
+                "descripcion": "Python",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 26,
+                "descripcion": "SonarQube",
+                "nivel": "Basico"
+            },
+            {
+                "idConocimiento": 27,
+                "descripcion": "BitBucket",
+                "nivel": "Intermedio"
+            },
+            {
+                "idConocimiento": 28,
+                "descripcion": "Team Foundation Services",
+                "nivel": "Intermedio"
             }
         ],
         "habilidades":[
-            { "idHabilidad":1, "descripcion": "Facilidad de trabajar tanto en equipo como de forma individual."},
+            { "idHabilidad":1, "descripcion": "Rápido aprendizaje de cuestiones técnicas."},
             { "idHabilidad":2, "descripcion": "Gran habilidad para resolución de problemas."},
-            { "idHabilidad":3, "descripcion": "Rápido aprendizaje de cuestiones técnicas."}
+            { "idHabilidad":3, "descripcion": "Facilidad de trabajar tanto en equipo como de forma individual."},
+            { "idHabilidad":4, "descripcion": "Tolerancia a la frustración."},
+            { "idHabilidad":5, "descripcion": "Trabajo proactivo."},
+            { "idHabilidad":6, "descripcion": "Capacidad de aplicar pensamiento Lógico/Critico."},
+            { "idHabilidad":7, "descripcion": "Gran habilidad comunicativa."}
         ],
         "capacitaciones":[
-            { "idCapacitacion":1, "descripcion": "Curso de Introducción a la prevención de lavado de dinero – Fundación Slim"},
-            { "idCapacitacion":2, "descripcion": "Curso de Data Analytics con PowerBI - CoderHouse"},
-            { "idCapacitacion":3, "descripcion": "Curso de Programación de Apps Móviles de Google-UCM"}
+            { "idCapacitacion":1, "descripcion": "Curso de desarrollo frontend con ReactJS - CoderHouse"},
+            { "idCapacitacion":2, "descripcion": "Curso de Ingeniería de datos con Python Apache Airflow - CoderHouse"},
+            { "idCapacitacion":3, "descripcion": "Curso de Data Analytics con PowerBI - CoderHouse"},
+            { "idCapacitacion":4, "descripcion": "Curso de Introducción a la prevención de lavado de dinero – Fundación Slim"}
         ],
         "referencias": [
             {
@@ -113,6 +294,12 @@
                 "idReferencia": 2,
                 "nombre": "Samuel Zamacona Chavez",
                 "telefono": "5511996936",
+                "tipo": "Personal"
+            },
+            {
+                "idReferencia": 3,
+                "nombre": "Alfonso Humberto Carreño Zamacona",
+                "telefono": "5525648436",
                 "tipo": "Personal"
             }
         ],

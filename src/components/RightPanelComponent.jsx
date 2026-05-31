@@ -17,8 +17,8 @@ const RightPanelComponent = ({data}) => {
             <AcademicTrainingPanelComponent data={data.formacionAcademica}/>
             <ForeignLanguagesPanelComponent data={data.idiomas} />
             <KnowledgesPanelComponent data={data.conocimientos} />
-            <SkillsPanelComponent data={data.habilidades}/>
             <TrainingsPanelComponent data={data.capacitaciones}/>
+            <SkillsPanelComponent data={data.habilidades}/>            
             <ReferencesPanelComponent data={data.referencias}/>
         </Col>
     )

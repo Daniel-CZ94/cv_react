@@ -15,7 +15,7 @@ const AcademicTrainingPanelComponent = ({data}) =>{
                     data.map((item)=>(
                         <div key={item.idFormacion}>
                             <h5><strong>{item.titulo}</strong></h5>
-                            <p><em>{item.plantel} ({monthNames[new Date(item.inicio).getMonth()]}-{new Date(item.inicio).getFullYear()} - {monthNames[new Date(item.fin).getMonth()]}-{new Date(item.fin).getFullYear()})</em></p>
+                            <p><em>{item.plantel} ({new Date(item.inicio).getFullYear()}-{new Date(item.fin).getFullYear()})</em></p>
                         </div>
                     ))
                 }
