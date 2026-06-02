@@ -10,6 +10,7 @@
             "lugarResidencia": "Nezahualcoyotl",
             "estadoResidencia": "Edo. de Mexico",
             "edad": 31,
+            "fechaNacimiento":"1994-09-26",
             "dispBackOffice": true,
             "dispViajar": true,
             "dispMudarse": false
@@ -307,7 +308,7 @@
             "angeldanielcz@hotmail.com","danielzamacona94@outlook.com"
         ],
         "telefonos":[
-            "5568181901","5557309338"
+            "5563346189","5557309338"
         ]
 
     }

@@ -19,14 +19,14 @@ const CurriculumPageComponent = () =>{
     return (
         
         <Container id="principal">
-            <Col lg={12}>
-                <Row>
-                    {loading ? <p>Cargando...</p>  : <LeftPanelComponent data={data.data} />}
-                    {loading ? <p>Cargando...</p>  : <RightPanelComponent data={data.data} />}
-                    
-                </Row>
-            </Col>
-            
+            <Row className="justify-content-md-center">
+                <Col lg={12}>
+                    <Row>
+                        {loading ? <p>Cargando...</p>  : <LeftPanelComponent data={data.data} />}
+                        {loading ? <p>Cargando...</p>  : <RightPanelComponent data={data.data} />}                        
+                    </Row>
+                </Col>
+            </Row>            
         </Container>
     )
 }
